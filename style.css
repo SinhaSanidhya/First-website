@@ -1,8 +1,7 @@
- body{
-    background-image: url(" https://cdn.pixabay.com/photo/2021/10/30/18/03/berlin-6755246__340.jpg ");
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+body{
+    background-image:linear-gradient(45deg, #e92c2c,#252526,#16201c,#20294a);
+    color: white;
+}
     p{
     font-weight: bold;
     font-size: 16px;
@@ -11,12 +10,44 @@
     color:#000d1a;
     text-align: center;
     }
+    #head:hover{
+    color: black;
+    text-shadow: 0px 4px 4px red;
+    }
     .daucolor{
     color: #226600;
     }
     img{
-    width: 400px;
+    width: 300px;
     float: right;
-    margin-right: 10%;
-    border-radius: 100px 100px 0px 100px;
+    margin-left: 5%;
+    border-radius: 0%;
     }
+    .Mydiv{
+    width: 300px;
+    height: 170px;
+    border: 2px outset orange;
+    }
+    .Mydiv:hover{
+        background-color: grey;
+        box-shadow: 1px 4px 40px black;
+        border: 3px outset black;
+    }
+
+    #image2{
+     width: 300px;
+        float: right;
+        margin-left: 5%;
+        border-radius: 0%;
+    }
+
+    .Mydiv2{
+    width: 300px;
+        height: 170px;
+        border: 2px outset orange;
+    }
+    .Mydiv2:hover{
+    background: red;
+    box-shadow: 1px 4px 40px red;
+    }
+
