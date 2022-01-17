@@ -26,7 +26,7 @@ body{
     .Mydiv{
     width: 300px;
     height: 170px;
-    border: 2px outset orange;
+    border: 2px outset grey;
     }
     .Mydiv:hover{
         background-color: grey;
@@ -44,7 +44,7 @@ body{
     .Mydiv2{
     width: 300px;
         height: 170px;
-        border: 2px outset orange;
+        border: 2px outset red;
     }
     .Mydiv2:hover{
     background: red;
@@ -57,13 +57,14 @@ body{
     }
     .Mydiv3:hover{
      background: dark orange;
-        box-shadow: 1px 4px 40px darkorange;
+        box-shadow: 1px 4px 40px orange;
     }
     .Mydiv4{
         width: 300px;
             height: 170px;
-            border: 2px outset orange;
+            border: 2px outset blue;
     }
-    .MYdiv4:hover{
-    background:
+    .Mydiv4:hover{
+    background: dark blue;
+        box-shadow: 1px 4px 40px blue;
     }
